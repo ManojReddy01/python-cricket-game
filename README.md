@@ -9,3 +9,4 @@ expected output :
 3. status of the game
 4. won/lost by x runs
 5. 0s,1s,2s,3s,4s,6s count
+6. actual balls 
