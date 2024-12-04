@@ -126,8 +126,10 @@ def cricket_game():
     
     if total_score < target:
         print(f"YOU LOST THE GAME BY {target - total_score} RUNS.")
-    elif total_score == target:
+    elif total_score == target-1:
         print("THE MATCH ENDED IN A TIE!")
+    elif total_score > target:
+        print("YOU WON THE MATCH! CONGRATULATIONS!!")
     game_data = {
         "target": target,
         "score": total_score,
